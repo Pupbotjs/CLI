@@ -27,3 +27,6 @@ PupBot CLI 是框架的命令行工具，就是你启动框架的 `pup` 命令�
 | `pup create`         | 引导生成插件开发模板，支持 JS/TS           |
 | `pup update`         | 检查脚手架新版本，并自动更新框架和其他依赖 |
 | `pup fix --device`   | 修复命令，`--device` 随机修改设备 `IMEI`   |
+
+## MIT 开源协议
+[![](https://app.fossa.com/api/projects/git%2Bgithub.com%2FPupbotjs%2FCLI.svg?type=large)](https://app.fossa.com/api/projects/git%2Bgithub.com%2FPupbotjs%2FCLI.svg?type=large)
