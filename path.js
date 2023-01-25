@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.LogDir = exports.PluginDir = exports.OicqDataDir = exports.DataDir = exports.NodeModulesDir = exports.PkgPath = exports.AppPath = exports.ConfPath = exports.CWD = void 0;
+const node_path_1 = require("node:path");
+exports.CWD = process.cwd();
+exports.ConfPath = (0, node_path_1.join)(process.cwd(), 'config.json');
+exports.AppPath = (0, node_path_1.join)(process.cwd(), 'app.js');
+exports.PkgPath = (0, node_path_1.join)(process.cwd(), 'package.json');
+exports.NodeModulesDir = (0, node_path_1.join)(process.cwd(), 'node_modules');
+exports.DataDir = (0, node_path_1.join)(process.cwd(), 'data');
+exports.OicqDataDir = (0, node_path_1.join)(process.cwd(), 'data/oicq');
+exports.PluginDir = (0, node_path_1.join)(process.cwd(), 'plugins');
+exports.LogDir = (0, node_path_1.join)(process.cwd(), 'logs');
